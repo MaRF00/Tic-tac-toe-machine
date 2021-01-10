@@ -4,7 +4,8 @@ board = [[0 for i in range(3)] for i in range(3)]
 gameOver = False
 max = 0
 turn = True
-
+print("Indicate the coordinates in this format: 1 1 or 2 0")
+print("Your moves will be represented by a one")
 class Player():
     def __init__(self, name):
         self.name = name
